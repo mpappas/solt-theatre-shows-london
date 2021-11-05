@@ -38,17 +38,17 @@ SOLT Full-Stack Tech Test 🚀
 
 Server:
 
-- [-] An interval function calls storeShowsData() method which fetches and writes data into json file.
-- [-] An API endpoint that accepts GET Requests responds with shows details that load from file.
-- [-] We've used morgan a library that offers server side logging.
-- [-] Scripts are perfoming actions in both client and server for practical reason.
+- [x] An interval function calls storeShowsData() method which fetches and writes data into json file.
+- [x] An API endpoint that accepts GET Requests responds with shows details that load from file.
+- [x] We've used morgan a library that offers server side logging.
+- [x] Scripts are perfoming actions in both client and server for practical reason.
 - [ ] We haven't added tests.
 
 Client:
 
-- [-] Card and CardList components are handling listing data been fetched by our NodeJS service.
-- [-] We've added one more component called SearchBox as an added user experience allowing the user to search by title.
-- [-] App container is responsing for keeping the state and pass the props to our function components.
-- [-] We've used `tachyons` a library to help us design our interface.
-- [-] There is a functionality that adds the correct url (subdomain or failover) to the `Buy Now` button or turns it to `Sold Out`
+- [x] Card and CardList components are handling listing data been fetched by our NodeJS service.
+- [x] We've added one more component called SearchBox as an added user experience allowing the user to search by title.
+- [x] App container is responsing for keeping the state and pass the props to our function components.
+- [x] We've used `tachyons` a library to help us design our interface.
+- [x] There is a functionality that adds the correct url (subdomain or failover) to the `Buy Now` button or turns it to `Sold Out`
 - [ ] Unfortunately there was no time to implement the conditional formating in the extend to grey out the whole Card component.
